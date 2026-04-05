@@ -1,0 +1,81 @@
+{
+  "owner": {
+    "name": "Dennis Chen",
+    "title": "Senior BI Engineer",
+    "tagline": "將原始數據轉化為可行動的數據洞察報告。",
+    "bio": "5+ 年企業級儀表板與資料管道開發經驗，專精 Tableau、SQL驅動的 ETL 數據流程及數據儀表板。擅長將複雜業務需求轉化為清晰直觀的資料視覺化解決方案。",
+    "avatar": "assets/images/avatar.jpg",
+    "location": "台灣台北市",
+    "contact": {
+      "email": "c.wei11dev@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/dennis-chen-a6b0b711a/",
+      "github": "https://github.com/cwei11dev"
+    }
+  },
+  "skills": [
+    { "name": "Tableau Desktop", "level": 95, "category": "視覺化" },
+    { "name": "Tableau Prep", "level": 95, "category": "資料工程" },
+    { "name": "SQL", "level": 90, "category": "資料工程" },
+    { "name": "Python", "level": 60, "category": "資料工程" },
+    { "name": "dbt", "level": 65, "category": "資料工程" },
+    { "name": "MS Office / Power Automate", "level": 85, "category": "辦公軟體及辦公流程自動化" },
+    { "name": "Databricks", "level": 80, "category": "資料工程" },
+    { "name": "Copilot / Gemini / NotebookLM / Claude", "level": 85, "category": "AI協作" }
+  ],
+  "experience": [
+    {
+      "company": "FarEasTone Telecom _ GM Office",
+      "role": "資深 BI 工程師",
+      "period": "2024 年 4 月 — 至今",
+      "location": "遠端",
+      "bullets": [
+        "主導 40+ 個 Tableau 工作簿遷移至 Tableau Cloud，降低刷新延遲 35%",
+        "建立自助式分析平台，服務 200+ 位業務用戶",
+        "在 Snowflake 中設計星型 Schema 資料模型，驅動高層管理 KPI 儀表板"
+      ]
+    },
+    {
+      "company": "FarEasTone Telecom _ GM Office",
+      "role": "BI 開發工程師",
+      "period": "2021 年 10 月 — 2024 年 3 月",
+      "location": "台北",
+      "bullets": [
+        "為銷售、財務和運營團隊建立 15+ 個生產級 Tableau 儀表板",
+        "使用 Python 和 Apache Airflow 自動化每日 ETL 管道",
+        "優化 SQL 查詢效能，減少報表產生時間 60%"
+      ]
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "proj-001",
+      "title": "業績 KPI 執行儀表板",
+      "description": "即時 Tableau 儀表板，追蹤 12 個地區的營收、配額達成率與業務管道健康度，支援鑽取分析。",
+      "image": "assets/images/projects/project-1.png",
+      "tags": ["Tableau", "SQL", "Snowflake"],
+      "link": "https://public.tableau.com/",
+      "link_label": "Tableau Public 觀看",
+      "featured": true
+    },
+    {
+      "id": "proj-002",
+      "title": "供應鏈延誤分析器",
+      "description": "互動式下鑽儀表板，識別六層供應商網絡中的瓶頸，協助縮短平均交貨周期 20%。",
+      "image": "assets/images/projects/project-2.png",
+      "tags": ["Tableau", "Python", "PostgreSQL"],
+      "link": "https://github.com/",
+      "link_label": "GitHub 查看",
+      "featured": false
+    },
+    {
+      "id": "proj-003",
+      "title": "客戶留存率分析",
+      "description": "Cohort 分析儀表板，視覺化用戶流失趨勢，協助行銷團隊制定精準的留存策略。",
+      "image": "assets/images/projects/project-3.png",
+      "tags": ["Tableau", "SQL"],
+      "link": "https://public.tableau.com/",
+      "link_label": "Tableau Public 觀看",
+      "featured": false
+    }
+  ]
+}

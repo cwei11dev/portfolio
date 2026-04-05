@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dennis Chen — Tableau BI Engineer</title>
+  <meta name="description" content="Dennis Chen 的個人履歷與作品集 — Tableau BI 工程師，專精資料視覺化與商業智慧解決方案。">
+  <meta name="author" content="Dennis Chen">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dennis Chen — Senior BI Engineer">
+  <meta property="og:description" content="將原始數據轉化為可行動的數據洞察報告。">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       NAV
+  ════════════════════════════════════════════════════════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+
+      <!-- Logo: mini bar-chart + name -->
+      <a class="nav__logo" href="#about" aria-label="Dennis Chen — 回到頂部">
+        <svg class="nav__logo-icon" viewBox="0 0 28 22" fill="none" aria-hidden="true">
+          <rect class="nav__logo-bar" x="0"  y="10" width="7" height="12" rx="1.5"/>
+          <rect class="nav__logo-bar" x="10" y="5"  width="7" height="17" rx="1.5"/>
+          <rect class="nav__logo-bar" x="20" y="0"  width="7" height="22" rx="1.5"/>
+        </svg>
+        <span>Dennis Chen</span>
+      </a>
+
+      <!-- Links -->
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">關於我</a></li>
+        <li><a href="#skills">技能</a></li>
+        <li><a href="#experience">經歷</a></li>
+        <li><a href="#portfolio">作品集</a></li>
+      </ul>
+
+      <!-- Theme toggle -->
+      <button class="theme-toggle" id="themeToggle" aria-pressed="false" aria-label="切換主題">
+        <span class="theme-toggle__icon" aria-hidden="true">☀</span>
+        <span class="theme-toggle__label">Dark BI</span>
+      </button>
+
+      <!-- Hamburger -->
+      <button class="nav__burger" id="navBurger" aria-label="開啟選單" aria-expanded="false">
+        &#9776;
+      </button>
+
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       HERO / ABOUT
+  ════════════════════════════════════════════════════════════════ -->
+  <section class="hero" id="about">
+    <div class="container hero__grid">
+
+      <!-- Text -->
+      <div class="hero__text">
+        <span class="hero__eyebrow">Senior BI Engineer</span>
+        <h1 class="hero__name" id="heroName">Dennis Chen</h1>
+        <p class="hero__tagline" id="heroTagline">將原始數據轉化為可行動的數據洞察報告。</p>
+        <p class="hero__bio" id="heroBio">
+          5+ 年企業級儀表板與資料管道開發經驗，專精 Tableau、SQL 與 Python 驅動的 ETL 工作流程。
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#portfolio">查看作品集</a>
+          <a class="btn btn--outline" href="#" id="heroEmail">聯絡我</a>
+        </div>
+
+        <!-- KPI stat chips -->
+        <div class="hero__kpis">
+          <div class="kpi-chip">
+            <span class="kpi-chip__value">5+</span>
+            <span class="kpi-chip__label">年資</span>
+          </div>
+          <div class="kpi-chip">
+            <span class="kpi-chip__value">40+</span>
+            <span class="kpi-chip__label">儀表板</span>
+          </div>
+          <div class="kpi-chip">
+            <span class="kpi-chip__value">3000+</span>
+            <span class="kpi-chip__label">服務內部用戶</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Avatar -->
+      <div class="hero__avatar-wrap" id="heroAvatarWrap">
+        <img
+          class="hero__avatar"
+          id="heroAvatar"
+          src="assets/images/avatar.jpg"
+          alt="Dennis Chen"
+          loading="eager"
+        >
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       SKILLS
+  ════════════════════════════════════════════════════════════════ -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <h2 class="section__title">技能 <span class="section__title-accent">&amp; 工具</span></h2>
+      <p class="section__subtitle">跨越視覺化、資料工程與分析的技能熟練度</p>
+
+      <!-- Category tabs — populated by JS -->
+      <div class="skills__tabs" id="skillsTabs"></div>
+
+      <!-- Skills grid — populated by JS -->
+      <div class="skills__grid" id="skillsGrid">
+        <!-- Loaded from portfolio.json via main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       EXPERIENCE
+  ════════════════════════════════════════════════════════════════ -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <h2 class="section__title">工作 <span class="section__title-accent">經歷</span></h2>
+      <p class="section__subtitle">過往職涯與主要成就</p>
+
+      <!-- Timeline — populated by JS -->
+      <div class="timeline" id="timeline">
+        <!-- Loaded from portfolio.json via main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       PORTFOLIO
+  ════════════════════════════════════════════════════════════════ -->
+  <section class="portfolio section" id="portfolio">
+    <div class="container">
+      <h2 class="section__title">作品集 <span class="section__title-accent">專案</span></h2>
+      <p class="section__subtitle">精選資料視覺化與 BI 專案</p>
+
+      <!-- Tag filters — populated by JS -->
+      <div class="portfolio__filters" id="portfolioFilters"></div>
+
+      <!-- Project cards — populated by JS -->
+      <div class="portfolio__grid" id="portfolioGrid">
+        <!-- Loaded from portfolio.json via main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy" id="footerCopy">
+        © 2026 Dennis Chen. All rights reserved.
+      </p>
+      <div class="footer__socials" id="footerSocials">
+        <!-- Populated by JS from portfolio.json -->
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
