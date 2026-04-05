@@ -3,7 +3,7 @@
     "name": "Dennis Chen",
     "title": "Senior BI Engineer",
     "tagline": "將原始數據轉化為可行動的數據洞察報告。",
-    "bio": "5+ 年企業級儀表板與資料管道開發經驗，專精 Tableau、SQL驅動的 ETL 數據流程及數據儀表板。擅長將複雜業務需求轉化為清晰直觀的資料視覺化解決方案。",
+    "bio": "5+ 年企業級儀表板與資料ETL流程開發經驗，專精 Tableau、SQL驅動的 ETL 數據流程及數據儀表板。擅長將複雜業務需求轉化為清晰直觀的資料視覺化解決方案。",
     "avatar": "assets/images/avatar.jpg",
     "location": "台灣台北市",
     "contact": {
@@ -29,9 +29,9 @@
       "period": "2024 年 4 月 — 至今",
       "location": "遠端",
       "bullets": [
-        "主導 40+ 個 Tableau 工作簿遷移至 Tableau Cloud，降低刷新延遲 35%",
-        "建立自助式分析平台，服務 200+ 位業務用戶",
-        "在 Snowflake 中設計星型 Schema 資料模型，驅動高層管理 KPI 儀表板"
+        "主導 40+ 個 Tableau 工作簿及資料源遷移至 Databricks Cloud，降低刷新延遲 35%",
+        "建立自助式分析平台，服務 3000+ 位內部用戶",
+        "在 Databricks 及 Tableau server 上設計開發資料ETL流程，驅動高層管理 KPI 儀表板"
       ]
     },
     {
