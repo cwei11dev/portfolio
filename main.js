@@ -23,8 +23,8 @@ function applyTheme(theme) {
   btn.setAttribute('aria-pressed', String(theme === 'dark'));
   const label = btn.querySelector('.theme-toggle__label');
   const icon  = btn.querySelector('.theme-toggle__icon');
-  if (label) label.textContent = theme === 'dark' ? 'Light Mode' : 'Dark BI';
-  if (icon)  icon.textContent  = theme === 'dark' ? '◈' : '☀';
+  if (label) label.textContent = theme === 'dark' ? 'Light Mode' : 'Dark Mode';
+  if (icon)  icon.textContent  = theme === 'dark' ? '☀' : '◈';
 }
 
 function initThemeToggle() {
