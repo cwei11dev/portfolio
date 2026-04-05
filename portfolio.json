@@ -13,7 +13,7 @@
     }
   },
   "skills": [
-    { "name": "Tableau Desktop", "level": 95, "category": "視覺化" },
+    { "name": "Tableau Desktop", "level": 95, "category": "資料視覺化" },
     { "name": "Tableau Prep", "level": 95, "category": "資料工程" },
     { "name": "SQL", "level": 90, "category": "資料工程" },
     { "name": "Python", "level": 60, "category": "資料工程" },
