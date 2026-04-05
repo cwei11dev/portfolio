@@ -27,7 +27,7 @@
       "company": "FarEasTone Telecom _ GM Office",
       "role": "資深 BI 工程師",
       "period": "2024 年 4 月 — 至今",
-      "location": "遠端",
+      "location": "混合辦公",
       "bullets": [
         "主導 40+ 個 Tableau 工作簿及資料源遷移至 Databricks Cloud，降低刷新延遲 35%",
         "建立自助式分析平台，服務 3000+ 位內部用戶",
@@ -38,7 +38,7 @@
       "company": "FarEasTone Telecom _ GM Office",
       "role": "BI 開發工程師",
       "period": "2021 年 10 月 — 2024 年 3 月",
-      "location": "台北",
+      "location": "混合辦公",
       "bullets": [
         "為銷售、財務和運營團隊建立 15+ 個生產級 Tableau 儀表板",
         "使用 Python 和 Apache Airflow 自動化每日 ETL 管道",
@@ -52,7 +52,7 @@
       "title": "業績 KPI 執行儀表板",
       "description": "即時 Tableau 儀表板，追蹤 12 個地區的營收、配額達成率與業務管道健康度，支援鑽取分析。",
       "image": "assets/images/projects/project-1.png",
-      "tags": ["Tableau", "SQL", "Snowflake"],
+      "tags": ["Tableau", "SQL", "Python", "Databricks"],
       "link": "https://public.tableau.com/",
       "link_label": "Tableau Public 觀看",
       "featured": true
