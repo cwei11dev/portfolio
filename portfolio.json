@@ -49,30 +49,30 @@
   "portfolio": [
     {
       "id": "proj-001",
-      "title": "業績 KPI 執行儀表板",
-      "description": "即時 Tableau 儀表板，追蹤 12 個地區的營收、配額達成率與業務管道健康度，支援鑽取分析。",
+      "title": "friDay影音搭售用戶決策導航：用戶價值多維度動態分析Dashboard",
+      "description": "針對百萬級用戶數據進行深度清洗及自動化排程，設計Tableau參數功能讓高階主管及PM自定義數據矩陣，「一頁式全視角」分析架構。支援資費、區域、年齡等維度之即時交叉分析，精準識別佔比 67% 的核心價值客群，提升營運單位數據獲取效率 70% 以上。透過 Copilot 結構化洞察，產出具備行動建議的商業指標，成功從資費與多項維度定義高價值戰場，將數據轉化為可執行的行銷策略。",
       "image": "assets/images/projects/project-1.png",
-      "tags": ["Tableau", "SQL", "Python", "Databricks"],
-      "link": "https://public.tableau.com/",
-      "link_label": "Tableau Public 觀看",
+      "tags": ["Tableau Desktop", "Tableau Prep", "Databricks", "SQL", "Business Analytics"],
+      "link": "assets/images/projects/project-1.png",
+      "link_label": "點擊 觀看",
       "featured": true
     },
     {
       "id": "proj-002",
-      "title": "供應鏈延誤分析器",
-      "description": "互動式下鑽儀表板，識別六層供應商網絡中的瓶頸，協助縮短平均交貨周期 20%。",
+      "title": "待更新",
+      "description": "待更新",
       "image": "assets/images/projects/project-2.png",
-      "tags": ["Tableau", "Python", "PostgreSQL"],
+      "tags": [""],
       "link": "https://github.com/",
       "link_label": "GitHub 查看",
       "featured": false
     },
     {
       "id": "proj-003",
-      "title": "客戶留存率分析",
-      "description": "Cohort 分析儀表板，視覺化用戶流失趨勢，協助行銷團隊制定精準的留存策略。",
-      "image": "assets/images/projects/project-3.png",
-      "tags": ["Tableau", "SQL"],
+      "title": "待更新",
+      "description": "待更新",
+      "image": "待更新",
+      "tags": [""],
       "link": "https://public.tableau.com/",
       "link_label": "Tableau Public 觀看",
       "featured": false
