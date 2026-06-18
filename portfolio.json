@@ -1,7 +1,7 @@
 {
   "owner": {
     "name": "Dennis Chen",
-    "title": "Senior BI Engineer",
+    "title": "Senior Data Analyst",
     "tagline": "將原始數據轉化為可行動的數據洞察報告。",
     "bio": "5+ 年企業級儀表板與資料ETL流程開發經驗，專精 Tableau、SQL驅動的Dashboard及Data Pipeline。擅長將複雜業務需求轉化為清晰直觀的資料視覺化解決方案。",
     "avatar": "assets/images/avatar.jpg",
@@ -24,9 +24,20 @@
   ],
   "experience": [
     {
+      "company": "FarEasTone Telecom _ Performance & Cost Management",
+      "role": "資深數據分析師（風險與量化建模）",
+      "period": "2026 年 7 月 — 至今",
+      "location": "混合辦公",
+      "bullets": [
+        "建構信用風險與逾期帳款管理框架，結合數據監控與預測模型，提升風險預警能力與控管精準度",
+        "設計與評估策略性催收機制，涵蓋高價值客戶分群邏輯、處置優先順序與回收績效分析，極大化整體回收效率與營運成本控管",
+        "執行用戶行為與流失風險分析，運用數據挖掘（Data Mining）技術識別關鍵流失驅動因子，並提供具備商業落地價值的營運優化建議"
+      ]
+    },    
+    {
       "company": "FarEasTone Telecom _ GM Office",
-      "role": "資深 BI 工程師",
-      "period": "2024 年 4 月 — 至今",
+      "role": "資深數據分析師",
+      "period": "2024 年 4 月 — 2026 年 6 月",
       "location": "混合辦公",
       "bullets": [
         "主導 40+ 個 Tableau 工作簿及資料源遷移至 Databricks Cloud，降低刷新延遲 35%",
